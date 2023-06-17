@@ -384,6 +384,11 @@ nav {
         margin-left: 4vh;
     }
 
+    .logo a:hover {
+        padding-left: 0vh;
+        margin-left: 4vh;
+    }
+
     .menu {
         margin-left: -3vh;
         margin-right: 3vh;

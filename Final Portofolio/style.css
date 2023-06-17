@@ -1261,6 +1261,7 @@ footer .socialmedia:hover {
     .section {
         margin-top: 14vh;
         display: grid;
+        margin-left: 2vh;
     }
 
     .card1 {
@@ -1314,7 +1315,7 @@ footer .socialmedia:hover {
 
     .section2 {
         margin-top: 10vh;
-        height: 70vh;
+        height: 56vh;
     }
 
     .section2 h1 {
@@ -1335,9 +1336,7 @@ footer .socialmedia:hover {
     }
 
     .section2 .paragraph3 {
-        width: 40vh;
-        margin-right: -17vh;
-        margin-top: 3vh;
+        display: none;
     }
 
     .section2 .paragraph4 {

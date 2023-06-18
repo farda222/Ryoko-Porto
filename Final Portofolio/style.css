@@ -168,18 +168,13 @@ nav {
     white-space: nowrap;
     margin-top: 20vh;
     margin-left: 1vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 .content {
     display: inline-block;
     width: max-content;
     height: max-content;
-    /* Atur lebar dan ketinggian sesuai kebutuhan */
-    animation: scroll 1150s linear infinite;
-    justify-content: space-between;
+    white-space: nowrap;
 }
 
 .content img {
@@ -373,20 +368,6 @@ footer .socialmedia:hover {
     letter-spacing: 1vh;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0%);
-    }
-
-    50% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
-
 @media only screen and (min-width: 1200px) {
 
     /* Kode CSS untuk desktop dengan lebar besar */
@@ -560,18 +541,13 @@ footer .socialmedia:hover {
         white-space: nowrap;
         margin-top: 20vh;
         margin-left: 1vh;
-        justify-content: center;
-        align-items: center;
-        display: flex;
     }
 
     .content {
         display: inline-block;
         width: max-content;
         height: max-content;
-        /* Atur lebar dan ketinggian sesuai kebutuhan */
-        animation: scroll 1150s linear infinite;
-        justify-content: space-between;
+        white-space: nowrap;
     }
 
     .content img {
@@ -937,18 +913,13 @@ footer .socialmedia:hover {
         white-space: nowrap;
         margin-top: 20vh;
         margin-left: 1vh;
-        justify-content: center;
-        align-items: center;
-        display: flex;
     }
 
     .content {
         display: inline-block;
         width: max-content;
         height: max-content;
-        /* Atur lebar dan ketinggian sesuai kebutuhan */
-        animation: scroll 1150s linear infinite;
-        justify-content: space-between;
+        white-space: nowrap;
     }
 
     .content img {

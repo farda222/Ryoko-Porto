@@ -1895,8 +1895,8 @@ footer .socialmedia:hover {
     }
 
     .card1 pre {
-        font-size: 2vh;
-        margin-left: -7vh;
+        font-size: 1.5vh;
+        margin-left: -8vh;
         margin-top: 2vh;
     }
 
@@ -1920,8 +1920,8 @@ footer .socialmedia:hover {
     }
 
     .card2 pre {
-        font-size: 1.9vh;
-        margin-left: -7vh;
+        font-size: 1.5vh;
+        margin-left: -8vh;
         margin-top: 2vh;
     }
 
@@ -1936,24 +1936,26 @@ footer .socialmedia:hover {
 
     .section2 {
         margin-top: 10vh;
-        height: 56vh;
+        height: 70vh;
     }
 
     .section2 h1 {
-        width: 40vh;
+        width: 50vh;
         margin-top: -2vh;
         margin-left: -12vh;
-        font-size: 4vh;
+        font-size: 3.5vh;
     }
 
     .section2 .paragraph1 {
-        width: 40vh;
+        width: 50vh;
         margin-left: -12vh;
+        font-size: 2vh;
     }
 
     .section2 .paragraph2 {
-        width: 40vh;
+        width: 50vh;
         margin-left: -12vh;
+        font-size: 2vh;
     }
 
     .section2 .paragraph3 {

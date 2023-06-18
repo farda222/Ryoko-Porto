@@ -1894,6 +1894,11 @@ footer .socialmedia:hover {
         margin-left: 4vh;
     }
 
+    .card1 a:hover {
+        font-size: 3vh;
+        margin-left: 4vh;
+    }
+
     .card1 pre {
         font-size: 1.7vh;
         margin-left: -6vh;
@@ -1919,6 +1924,11 @@ footer .socialmedia:hover {
         margin-left: 4vh;
     }
 
+    .card2 a:hover {
+        font-size: 3vh;
+        margin-left: 4vh;
+    }
+
     .card2 pre {
         font-size: 1.7vh;
         margin-left: -6vh;
@@ -1936,7 +1946,7 @@ footer .socialmedia:hover {
 
     .section2 {
         margin-top: 10vh;
-        height: 70vh;
+        height: 65vh;
     }
 
     .section2 h1 {
@@ -2049,7 +2059,7 @@ footer .socialmedia:hover {
     }
 
     .header .horizontal-scroll {
-        margin-left: -6.5vh;
+        margin-left: -6vh;
         width: 40vh;
         justify-content: center;
         align-items: center;
@@ -2067,7 +2077,7 @@ footer .socialmedia:hover {
     .section {
         margin-top: 14vh;
         display: grid;
-        margin-left: 1vh;
+        margin-left: 2vh;
     }
 
     .card1 {
@@ -2075,13 +2085,18 @@ footer .socialmedia:hover {
     }
 
     .card1 a {
-        font-size: 5vh;
+        font-size: 3vh;
+        margin-left: 4vh;
+    }
+
+    .card1 a:hover {
+        font-size: 3vh;
         margin-left: 4vh;
     }
 
     .card1 pre {
-        font-size: 2vh;
-        margin-left: -7vh;
+        font-size: 1.7vh;
+        margin-left: -6vh;
         margin-top: 2vh;
     }
 
@@ -2100,13 +2115,18 @@ footer .socialmedia:hover {
     }
 
     .card2 a {
-        font-size: 4vh;
+        font-size: 3vh;
+        margin-left: 4vh;
+    }
+
+    .card2 a:hover {
+        font-size: 3vh;
         margin-left: 4vh;
     }
 
     .card2 pre {
-        font-size: 1.9vh;
-        margin-left: -7vh;
+        font-size: 1.7vh;
+        margin-left: -6vh;
         margin-top: 2vh;
     }
 
@@ -2121,24 +2141,26 @@ footer .socialmedia:hover {
 
     .section2 {
         margin-top: 10vh;
-        height: 56vh;
+        height: 65vh;
     }
 
     .section2 h1 {
         width: 40vh;
         margin-top: -2vh;
         margin-left: -12vh;
-        font-size: 4vh;
+        font-size: 3.5vh;
     }
 
     .section2 .paragraph1 {
         width: 40vh;
         margin-left: -12vh;
+        font-size: 2vh;
     }
 
     .section2 .paragraph2 {
         width: 40vh;
         margin-left: -12vh;
+        font-size: 2vh;
     }
 
     .section2 .paragraph3 {

@@ -163,6 +163,7 @@ nav {
 }
 
 .horizontal-scroll {
+    overflow-x: hidden;
     width: 90%;
     overflow-x: hidden;
     white-space: nowrap;
@@ -177,9 +178,7 @@ nav {
     display: inline-block;
     width: max-content;
     height: max-content;
-    /* Atur lebar dan ketinggian sesuai kebutuhan */
-    animation: scroll 1150s linear infinite;
-    justify-content: space-between;
+    white-space: nowrap;
 }
 
 .content img {
@@ -373,20 +372,6 @@ footer .socialmedia:hover {
     letter-spacing: 1vh;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0%);
-    }
-
-    50% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
-
 @media only screen and (min-width: 1200px) {
 
     /* Kode CSS untuk desktop dengan lebar besar */
@@ -569,9 +554,7 @@ footer .socialmedia:hover {
         display: inline-block;
         width: max-content;
         height: max-content;
-        /* Atur lebar dan ketinggian sesuai kebutuhan */
-        animation: scroll 1150s linear infinite;
-        justify-content: space-between;
+        white-space: nowrap;
     }
 
     .content img {
@@ -946,9 +929,7 @@ footer .socialmedia:hover {
         display: inline-block;
         width: max-content;
         height: max-content;
-        /* Atur lebar dan ketinggian sesuai kebutuhan */
-        animation: scroll 1150s linear infinite;
-        justify-content: space-between;
+        white-space: nowrap;
     }
 
     .content img {
@@ -1141,21 +1122,6 @@ footer .socialmedia:hover {
         margin-top: -2vh;
         letter-spacing: 1vh;
     }
-
-    @keyframes scroll {
-        0% {
-            transform: translateX(0%);
-        }
-
-        50% {
-            transform: translateX(-100%);
-        }
-
-        100% {
-            transform: translateX(0%);
-        }
-    }
-
 }
 
 /*tablet lanskap desktop medium*/
@@ -1303,7 +1269,10 @@ footer .socialmedia:hover {
     }
 
     .content {
-        animation: scroll 1500s linear infinite;
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        white-space: nowrap;
     }
 
     .section {
@@ -1445,7 +1414,10 @@ footer .socialmedia:hover {
     }
 
     .content {
-        animation: scroll 1500s linear infinite;
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        white-space: nowrap;
     }
 
     .section {
@@ -1587,7 +1559,10 @@ footer .socialmedia:hover {
     }
 
     .content {
-        animation: scroll 1500s linear infinite;
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        white-space: nowrap;
     }
 
     .section {
@@ -1729,7 +1704,10 @@ footer .socialmedia:hover {
     }
 
     .content {
-        animation: scroll 1500s linear infinite;
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        white-space: nowrap;
     }
 
     .section {
@@ -2071,7 +2049,10 @@ footer .socialmedia:hover {
     }
 
     .content {
-        animation: scroll 1500s linear infinite;
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        white-space: nowrap;
     }
 
     .section {
@@ -2266,7 +2247,10 @@ footer .socialmedia:hover {
     }
 
     .content {
-        animation: scroll 1500s linear infinite;
+        display: inline-block;
+        width: max-content;
+        height: max-content;
+        white-space: nowrap;
     }
 
     .section {

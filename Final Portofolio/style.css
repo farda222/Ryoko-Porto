@@ -178,10 +178,8 @@ nav {
     width: max-content;
     height: max-content;
     /* Atur lebar dan ketinggian sesuai kebutuhan */
-    animation: scroll-animation 11150s linear infinite;
+    animation: scroll 1150s linear infinite;
     justify-content: space-between;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
 
 .content img {
@@ -375,14 +373,19 @@ footer .socialmedia:hover {
     letter-spacing: 1vh;
 }
 
-@keyframes scroll-animation {
+@keyframes scroll {
     0% {
-      transform: translateX(0);
+        transform: translateX(0%);
     }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
     100% {
-      transform: translateX(-100%);
+        transform: translateX(0%);
     }
-  }
+}
 
 @media only screen and (min-width: 1200px) {
 

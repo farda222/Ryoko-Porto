@@ -163,7 +163,6 @@ nav {
 }
 
 .horizontal-scroll {
-    overflow-x: hidden;
     width: 90%;
     overflow-x: hidden;
     white-space: nowrap;
@@ -178,7 +177,11 @@ nav {
     display: inline-block;
     width: max-content;
     height: max-content;
-    white-space: nowrap;
+    /* Atur lebar dan ketinggian sesuai kebutuhan */
+    animation: scroll-animation 11150s linear infinite;
+    justify-content: space-between;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .content img {
@@ -372,6 +375,15 @@ footer .socialmedia:hover {
     letter-spacing: 1vh;
 }
 
+@keyframes scroll-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
 @media only screen and (min-width: 1200px) {
 
     /* Kode CSS untuk desktop dengan lebar besar */
@@ -554,7 +566,9 @@ footer .socialmedia:hover {
         display: inline-block;
         width: max-content;
         height: max-content;
-        white-space: nowrap;
+        /* Atur lebar dan ketinggian sesuai kebutuhan */
+        animation: scroll 1150s linear infinite;
+        justify-content: space-between;
     }
 
     .content img {
@@ -929,7 +943,9 @@ footer .socialmedia:hover {
         display: inline-block;
         width: max-content;
         height: max-content;
-        white-space: nowrap;
+        /* Atur lebar dan ketinggian sesuai kebutuhan */
+        animation: scroll 1150s linear infinite;
+        justify-content: space-between;
     }
 
     .content img {
@@ -970,6 +986,8 @@ footer .socialmedia:hover {
         height: 100%;
         border-radius: 20px;
     }
+
+
 
     .card2 {
         margin-left: 97vh;
@@ -1119,6 +1137,20 @@ footer .socialmedia:hover {
         margin-left: 150vh;
         margin-top: -2vh;
         letter-spacing: 1vh;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0%);
+        }
+
+        50% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
     }
 
 }

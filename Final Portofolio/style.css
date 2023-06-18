@@ -1559,10 +1559,7 @@ footer .socialmedia:hover {
     }
 
     .content {
-        display: inline-block;
-        width: max-content;
-        height: max-content;
-        white-space: nowrap;
+        animation: scroll 1500s linear infinite;
     }
 
     .section {
@@ -1704,10 +1701,7 @@ footer .socialmedia:hover {
     }
 
     .content {
-        display: inline-block;
-        width: max-content;
-        height: max-content;
-        white-space: nowrap;
+        animation: scroll 1500s linear infinite;
     }
 
     .section {
@@ -2049,10 +2043,7 @@ footer .socialmedia:hover {
     }
 
     .content {
-        display: inline-block;
-        width: max-content;
-        height: max-content;
-        white-space: nowrap;
+        animation: scroll 1500s linear infinite;
     }
 
     .section {
@@ -2247,10 +2238,7 @@ footer .socialmedia:hover {
     }
 
     .content {
-        display: inline-block;
-        width: max-content;
-        height: max-content;
-        white-space: nowrap;
+        animation: scroll 1500s linear infinite;
     }
 
     .section {

@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', function() {
       } else {
         scrollContainer.scrollLeft++;
       }
-    }
+    } 
   
     setInterval(scroll, 10);
   });

@@ -360,12 +360,27 @@ footer .socialmedia {
     margin-left: 150vh;
     margin-top: -2vh;
     letter-spacing: 1vh;
+    transition: 1s;
 }
 
 footer .socialmedia:hover {
     margin-left: 150vh;
     margin-top: -2vh;
     letter-spacing: 1vh;
+    transition: 1s;
+}
+.socialmedia img {
+    width: 2.5vh;
+    height: 2.5vh;
+    transition: 0.4s;
+}
+
+.socialmedia img:hover {
+    width: 2.5vh;
+    height: 2.5vh;
+    opacity: 0.5;
+    margin-top: -2vh;
+    transition: 0.4s;
 }
 
 @media only screen and (min-width: 1200px) {
